@@ -13,7 +13,7 @@ public class LoginTests {
     public void setUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://www.supermart.ng/");
+        driver.get("https://www.supermart.ng/authentication/register/");
         Thread.sleep(5000);
 
         //1. minimize the window
